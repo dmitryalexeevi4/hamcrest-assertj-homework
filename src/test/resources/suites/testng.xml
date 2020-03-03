@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG">
+    <test name="TestNG сценарии">
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="${tags}"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="com.github.dmitryalexeevi4.HamcrestTest"/>
+            <class name="com.github.dmitryalexeevi4.AssertJTest"/>
+        </classes>
+    </test>
+</suite>
